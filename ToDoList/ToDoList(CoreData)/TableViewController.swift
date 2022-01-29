@@ -1,11 +1,3 @@
-//
-//  TableViewController.swift
-//  ToDoList(CoreData)
-//
-//  Created by yurik on 7/5/20.
-//  Copyright © 2020 yurik. All rights reserved.
-//
-
 import UIKit
 import CoreData
 
@@ -131,7 +123,7 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
-        let task = array[indexPath.row] //записвываем в переменную task значение из массива типа Task
+      let task = array[indexPath.row] //записвываем в переменную task значение из массива типа Task
         cell.textLabel?.text = task.title //записвываем в каждую строку таблицы значение из перемнной типа Task и его свойства title
 
         return cell

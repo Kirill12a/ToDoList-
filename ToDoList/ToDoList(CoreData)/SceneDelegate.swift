@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  ToDoList(CoreData)
-//
-//  Created by yurik on 7/5/20.
-//  Copyright © 2020 yurik. All rights reserved.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
